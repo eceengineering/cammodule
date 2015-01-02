@@ -17,8 +17,8 @@ The module has a well-defined interface to initialize, start and stop. It provid
 
     Programming Language:   C
     Compiler:               GCC
-    Test Platform(s):       ARM Cortex A8 h/w
-                            ARM Cortex A9 h/w
+    Test Platform(s):       ARM Cortex-A8 h/w
+                            ARM Cortex-A9 h/w
     Test OS:                Linux Ubuntu
                             Linux Debian
                             
