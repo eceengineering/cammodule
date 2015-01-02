@@ -15,6 +15,13 @@ Details:
 
 The module has a well-defined interface to initialize, start and stop. It provides raw video frame out by a function call when it is requested.
 
+    Programming Language:   C
+    Compiler:               GCC
+    Test Platform(s):       ARM Cortex A8 h/w
+                            ARM Cortex A9 h/w
+    Test OS:                Linux Ubuntu
+                            Linux Debian
+                            
     Input(s):
           - Camera resolution
           - Camera device name
@@ -31,12 +38,10 @@ The module has a well-defined interface to initialize, start and stop. It provid
           - Stop()	- To stop capturing process
           - GetFrame() - To copy the video frame data
 
-
 How to Build:
 
     - Makefile available in the repository is generated regarding to Arm Linux Gnueabihf Gcc.
     - $make 
-
 
 How to Run:
 
